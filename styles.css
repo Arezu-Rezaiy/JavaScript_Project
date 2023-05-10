@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+
+    
+}
+h1{
+    text-align: center;
+}
+ .btn{
+    width: 200px;
+    height: 200px;
+    border-radius:20% ;
+    border: 10px solid black;
+     margin: 20px; 
+ 
+ }
+ #red{
+    background-color: red;
+ }
+ #blue{
+    background-color: blue;
+ }
+ #green{
+    background-color: green;
+ }
+ #yellow{
+    background-color: yellow;
+ }
+ .row{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.game-over{
+    background-color: red ;
+    opacity: 0.8;
+}
+#numScore{
+   display: inline;
+   
+}
+#numLevel{
+   display: inline;
+}
+.score{
+margin: 10px;
+font-size: 25px;
+}
+.level{
+margin: 10px;
+font-size: 25px;
+}
